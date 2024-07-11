@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoon Dawon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <span class="background background-0"></span>
+    <span class="background background-1"></span>
+    <main class="main">
+        <h1 class="name">YOON DAWON</h1>
+        <h2 class="job">frontend developer</h2>
+        <p>フロントエンドエンジニアを目指しています。韓国出身です。</br>
+            インタラクティブなウェブサイト作りに興味があります。
+        </p>
+            <h3 class="subtitle">CONTACT</h3>
+            <div>
+              <a class="button" href="https://github.com/">
+                <span class="border"></span>
+                <span class="label">github</span>
+                <span class="label-hover"></span>
+            </a>
+            <span class="button" id="copyEmailBtn">
+                <span class="border"></span>
+                <span class="label">email</span>
+                <span class="label-hover"></span>
+            </span>  
+            </div>
+            <h3 class="subtitle">SKILLS & TOOLS</h3>
+            <div>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">html</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">css</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">javascript</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">react</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">scss</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">three.js</span>
+                    <span class="label-hover"></span>
+                </span>
+            </div>
+            <div>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">bootstrap</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">git</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">blender</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">slack</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">notion</span>
+                    <span class="label-hover"></span>
+                </span>
+            </div>
+            <h3 class="subtitle">STUDYING</h3>
+            <div>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">node.js</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">express</span>
+                    <span class="label-hover"></span>
+                </span>
+                <span class="button">
+                    <span class="border"></span>
+                    <span class="label">mongo db</span>
+                    <span class="label-hover"></span>
+                </span>
+            </div>
+            <h3 class="subtitle">PROJECTS</h3>
+            <h4 >PERSONAL PROJECTS</h4>
+            <div>
+                <a class="button" href="https://dawon-yoon.github.io/404page/">
+                    <span class="border"></span>
+                    <span class="label">404 page</span>
+                    <span class="label-hover"></span>
+                </a>
+                
+                <a class="button" href="https://fennec-by-dawon.netlify.app/">
+                    <span class="border"></span>
+                    <span class="label">fennec</span>
+                    <span class="label-hover"></span>
+                </a>
+                <a class="button" href="https://stirring-cat-d1ecdf.netlify.app/">
+                    <span class="border"></span>
+                    <span class="label">new balance</span>
+                    <span class="label-hover"></span>
+                </a>
+                <a class="button" href="https://stately-klepon-aea1f5.netlify.app/">
+                    <span class="border"></span>
+                    <span class="label">korean times</span>
+                    <span class="label-hover"></span>
+                </a>
+            </div>
+            <h4>TEAM PROJECTS</h4>
+            <div>
+            <a class="button" href="https://muvic23.netlify.app">
+                <span class="border"></span>
+                <span class="label">muvic</span>
+                <span class="label-hover"></span>
+            </a>
+        </div>
+    </main>
+    <footer class="footer">&#169; Copyrifhgt 2024. Yoon Dawon Portfolio</footer>
+</body>
+<script>
+    document.getElementById("copyEmailBtn").addEventListener('click',()=>{
+        const email = "dawon3887@gmail.com";
+        navigator.clipboard.writeText(email)
+        .then(()=>{
+            alert("メールアドレスがクリップボードにコピーされました。")
+        })
+        .catch((error)=>{
+            alert("メールアドレスのコピーが失敗しました");
+        })
+    })
+</script>
+</html>
