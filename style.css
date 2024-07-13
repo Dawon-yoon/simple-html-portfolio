@@ -41,7 +41,7 @@ a{
 }
 
 .name{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 0;
 }
@@ -49,12 +49,12 @@ a{
 .job{
     text-transform: uppercase;
     margin-top: 0;
-    font-size: 23px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 p{
-    margin: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* main */
@@ -65,7 +65,7 @@ p{
 }
 
 .button {
-    margin-right: 5px;
+    margin-right: 8px;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -90,6 +90,10 @@ p{
     transition: transform 0.4s ease;
     z-index: 0;
 }
+.label{
+    font-size: 17px;
+    letter-spacing: 0.1rem;
+}
 
 .button:hover .border {
     transform: translateX(0);
@@ -111,8 +115,12 @@ p{
 }
 
 .subtitle{
-    font-size: 30px;
-    margin-top: 3rem;
+    font-size: 40px;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.projects{
+    margin-bottom: 0;
 }
 
 .footer{
